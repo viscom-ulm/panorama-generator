@@ -1,0 +1,3 @@
+[submodule "extern/immersight-tools"]
+	path = extern/immersight-tools
+	url = git@gitlab-mi.informatik.uni-ulm.de:ifr97/immersight-tools.git
