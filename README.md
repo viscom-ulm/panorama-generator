@@ -32,6 +32,17 @@ cmake .. -G "Visual Studio 15 2017 Win64"
 
 Then open Visual Studio and build the solution.
 
+### Usage
+
+```
+Usage: ./PanoramaGenerator.exe -[w|d|n] calibration.xml images.xml [outputdir]
+w - cube face size in pixel (default 2000)
+d - write debug images (default false)
+n - number of cameras
+
+./PanoramaGenerator.exe -n=36 calibration.xml images.xml panorama/
+```
+
 ## Authors
 
 * **Sebastian Hartwig** - [ImmersightTools](https://gitlab-mi.informatik.uni-ulm.de/ifr97/immersight-tools.git)

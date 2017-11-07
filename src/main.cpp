@@ -30,7 +30,7 @@ int main(int argn, char **argv)
 
 	if (!parser.check())
 	{
-		std::cout << "arguments:\n-w (cube face size in pixel, default 2000)\n-d (write debug images, default false)\n-n (number of cameras)\n[calibration parameter]\n[image list]\n[out directory]" << std::endl;
+		std::cout << "Usage: ./PanoramaGenerator.exe -[w|d|n] calibration.xml images.xml [outputdir]\nw - cube face size in pixel (default 2000)\nd - write debug images (default false)\nn - number of cameras" << std::endl;
 		parser.printErrors();
 		return -1;
 	}
