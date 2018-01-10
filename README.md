@@ -9,7 +9,7 @@ The panorama generator takes intrinsic and extrinsic calibration parameters and 
 ### Prerequisites
 ImmersightTools
 ```
-git clone https://gitlab-mi.informatik.uni-ulm.de/ifr97/immersight-tools.git
+git clone https://github.com/viscom-ulm/immersight-tools.git
 ```
 
 To calibrate a multi-camera system, checkout the multicalibration repo. It is based on the tool from Bo Li et al.
@@ -24,7 +24,7 @@ Install OpenCV (3.2)
 Clone, Build, Compile.
 
 ```
-git clone https://gitlab-mi.informatik.uni-ulm.de/ifr97/panorama-generator.git
+git clone https://github.com/viscom-ulm/panorama-generator.git
 cd panorama-generator
 mkdir build && cd build
 cmake .. -G "Visual Studio 15 2017 Win64"
@@ -45,7 +45,7 @@ n - number of cameras
 
 ## Authors
 
-* **Sebastian Hartwig** - [ImmersightTools](https://gitlab-mi.informatik.uni-ulm.de/ifr97/immersight-tools.git)
+* **Sebastian Hartwig** - [ImmersightTools](https://github.com/viscom-ulm/immersight-tools.git)
 
 ## Acknowledgments
 
